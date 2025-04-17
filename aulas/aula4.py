@@ -10,11 +10,11 @@
 
 #2
 
-# n = int(input('Digite um numero: '))
-# tabuada = 0
+n = int(input('Digite um numero: '))
+tabuada = 0
 
-# for i in range(1, 10 + 1):
-#     tabuada = n * i
-#     print(f'{n} * {i} = {tabuada}')
+for i in range(1, 10 + 1):
+    tabuada = n * i
+    print(f'{n} * {i} = {tabuada}')
 
 #3
