@@ -1,5 +1,7 @@
 
 n = int(input('Digite um número: '))
+a, b = 0, 1 
+fibonacci = []
 
 for i in range(n, 0, -1): #?? pq nao ficou decrescente?
     a, b = 1, 0
