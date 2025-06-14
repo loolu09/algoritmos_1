@@ -26,6 +26,10 @@ if impares_cubos:
 else:
     print('Não há números ímpares')
 
+#2.1
+'''
+maior_impar = max(filter(lambda x: x % 2 != 0, map(lambda x: x**3, numeros)))  
+'''
 #3
 numbers = [randint(1, 50) for _ in range(10)]
 soma_quadrados = reduce(lambda x, y: x + y, map(lambda x: x**2, filter(lambda x: x % 3 == 0, numbers)))
